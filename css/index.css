@@ -4,16 +4,19 @@
 @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
 
 #nav-style{
-  background-color: transparent;
-   background: transparent;
+  background-color: rgba(0,0,0,0.4);
+   background:  rgba(0,0,0,0.4);
    border-color: transparent;
+   height: 80px;
 }
 
 
 .nav.navbar-nav.navbar-right li a {
     color: black;
+     text-shadow: 2px 2px white;
     font-size: 18px;
     font-family: 'Julius Sans One', sans-serif;
+    padding-top: 30px;
 
 }
 
@@ -52,7 +55,7 @@ header {
   font-family: 'Cabin Sketch', cursive;
   font-size: 6em;
   padding-top: 1em;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
 }
 
 #q-reserv{
@@ -67,11 +70,15 @@ text-decoration: none;
 }
 
 #q-reserv a:hover{
-
+color: #EEBB1A;
 }
 
 #wow{
   font-size: 3em;
+}
+
+#wow-sm{
+  font-size: 1em;
 }
 
 #city{
@@ -193,4 +200,22 @@ footer a{
   footer{
     text-align: center;
   }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) { 
+.nav.navbar-nav.navbar-right li a {
+    color: black;
+    font-size: 14px;
+    font-family: 'Julius Sans One', sans-serif;
+
+}
+}
+
+@media (max-width: 768px) { 
+  #nav-style{
+  background-color: transparent;
+   background: white;
+   border-color: transparent;
+}
 }

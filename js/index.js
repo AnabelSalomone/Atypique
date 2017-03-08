@@ -16,10 +16,10 @@ $(document).ready(function () {
 
     //Change navbar color
     $(window).scroll(function () {
-        if ($(this).scrollTop() != 0) {
+        if ($(this).scrollTop() > 575) {
             $('#nav-style').css('background-color', 'white');
         } else {
-            $('#nav-style').css('background-color', 'transparent');
+            $('#nav-style').css('background-color', 'rgba(0,0,0,0.4)');
         }
     });
 
