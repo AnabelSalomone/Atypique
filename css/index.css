@@ -4,16 +4,15 @@
 @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
 
 #nav-style{
-  background-color: rgba(0,0,0,0.4);
-   background:  rgba(0,0,0,0.4);
+  background-color: transparent;
+   background: transparent;
    border-color: transparent;
    height: 80px;
 }
 
 
 .nav.navbar-nav.navbar-right li a {
-    color: black;
-     text-shadow: 2px 2px white;
+    color: #333;
     font-size: 18px;
     font-family: 'Julius Sans One', sans-serif;
     padding-top: 30px;
@@ -35,6 +34,7 @@
   font-family: 'Stalemate', cursive;
   font-size: 2em;
   margin-left: 8px;
+  color: #333;
 }
 
 /*text heading*/
@@ -42,7 +42,7 @@
 header {
   color: #333;
   /*text-shadow: 0 0 0.2em black, 0 0 0.2em black;*/
-  background-image: url('../images/header-hor.png');
+  background-image: url('../images/eggfix.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
