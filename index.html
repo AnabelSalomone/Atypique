@@ -157,12 +157,70 @@
     <!--Grille photos-->
     <div id="container-photos">
       <div class="row">
-        <div class="col-xs-6 col-sm-2"><img class="filter" src="images/rest3.jpg" alt="resto Lyon"></div>
-        <div class="col-xs-6 col-sm-2"><img class="filter" src="images/grille1.png" alt="resto Lyon"></div>
-        <div class="col-xs-6 col-sm-2"><img class="filter" src="images/grille2.png" alt="resto Lyon"></div>
-        <div class="col-xs-6 col-sm-2"><img class="filter" src="images/grille3.png" alt="resto Lyon"></div>
-        <div class="col-xs-6 col-sm-2"><img class="filter" src="images/grille4.png" alt="resto Lyon"></div>
-        <div class="col-xs-6 col-sm-2"><img class="filter" src="images/grille5.png" alt="resto Lyon"></div>
+
+        <div class="col-xs-6 col-sm-2">
+          <button data-toggle="modal" data-target="#myModal" href="#" class="thumbnail">
+            <img class="filter" src="images/rest3.jpg" alt="resto Lyon">
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Restaurant Lyon</h4>
+                </div>
+                <div class="modal-body">
+                  <img class="modal-img" src="images/thumb.jpg" alt="...">
+                  <p>sexto 6666666666 restaurante Lorem bla bla bla
+                    <h4>Où nous trouver</h4>
+                    <p>Adresse: 1 Rue Delandine, 69002 Lyon</p>
+                    <p>Mobile: 55555555555555555</p>
+                    <p>Telephone: 55555555555555555</p>
+                    <p> Mail: qwerty@jajs.com</p>
+                  </p>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2784.2365245469573!2d4.824771315566947!3d45.74640397910541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4ea4ac9e1fd2f%3A0xabc36e768b27c9a0!2sWild+Code+School!5e0!3m2!1ses!2sfr!4v1488539173077"
+                    width="400" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Reservez</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--End Modal-->
+        </div>
+        <!--END Restaurant 1-->
+
+
+
+        <div class="col-xs-6 col-sm-2">
+          <button data-toggle="modal " data-target="#myModal" class="thumbnail">
+            <img class="filter" src="images/grille1.png" alt="resto Lyon">
+          </button>
+        </div>
+        <div class="col-xs-6 col-sm-2">
+          <button data-toggle="modal " data-target="#myModal" class="thumbnail">
+            <img class="filter" src="images/grille2.png" alt="resto Lyon">
+          </button>
+        </div>
+        <div class="col-xs-6 col-sm-2">
+          <button data-toggle="modal " data-target="#myModal" class="thumbnail">
+            <img class="filter" src="images/grille3.png" alt="resto Lyon">
+          </button>
+        </div>
+        <div class="col-xs-6 col-sm-2">
+          <button data-toggle="modal " data-target="#myModal" class="thumbnail">
+          <img class="filter" src="images/grille4.png" alt="resto Lyon">
+          </button>
+        </div>
+        <div class="col-xs-6 col-sm-2">
+          <button data-toggle="modal " data-target="#myModal" class="thumbnail">
+            <img class="filter" src="images/grille5.png" alt="resto Lyon">
+          </button>
+        </div>
 
       </div>
     </div>
