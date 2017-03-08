@@ -9,6 +9,17 @@
    border-color: transparent;
 }
 
+
+.nav.navbar-nav.navbar-right li a {
+    color: black;
+    font-size: 18px;
+}
+
+#franchise{
+  background-color: #EEBB1A;
+}
+
+
 #logo{
   height: 50px;
 }
