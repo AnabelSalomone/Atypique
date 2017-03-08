@@ -73,6 +73,11 @@ text-decoration: none;
 color: #EEBB1A;
 }
 
+/*animate reservez in header*/
+#q-reserv{
+  -webkit-animation-delay: 1s; 
+}
+
 #wow{
   font-size: 3em;
 }
@@ -255,3 +260,4 @@ font-family: 'Cabin Sketch', cursive;
   text-align: center;
  background-color: rgba(225,225,225,0.2);
 }
+
