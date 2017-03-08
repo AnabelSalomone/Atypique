@@ -7,7 +7,7 @@ $(document).ready(function () {
         var page = $(this).attr('href');
         var speed = 750; // 
         $('html, body').animate({
-            scrollTop: $(page).offset().top - 50
+            scrollTop: $(page).offset().top - 80
         }, speed);
     });
 
@@ -19,7 +19,7 @@ $(document).ready(function () {
         if ($(this).scrollTop() > 575) {
             $('#nav-style').css('background-color', 'white');
         } else {
-            $('#nav-style').css('background-color', 'rgba(0,0,0,0.4)');
+            $('#nav-style').css('background-color', 'transparent');
         }
     });
 
