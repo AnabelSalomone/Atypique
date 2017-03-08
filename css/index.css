@@ -111,6 +111,10 @@ font-size: 2em;
    display: inline-block;
 }
 
+#container-photos a:hover{
+  text-decoration-line: none;
+}
+
 p{
   text-align: justify;
   font-family: 'Dosis', sans-serif;
@@ -143,8 +147,10 @@ p{
 }
 
 .modal-img{
-  width: 500px;
+  width: 100px;
   padding: 20px;
+  -webkit-filter: none; /* Safari 6.0 - 9.0 */
+  filter: none;
 }
 
 h2{
