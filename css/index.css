@@ -124,6 +124,19 @@ p{
   padding-right: 20px;
   padding-top: 30px;
 }
+
+#container-photos div div img{
+  width: 100%;
+  padding: 10px;
+ -webkit-filter: sepia(100%); /* Safari 6.0 - 9.0 */
+  filter: sepia(100%);
+}
+
+#container-photos div div img:hover{
+  -webkit-filter: sepia(0%); /* Safari 6.0 - 9.0 */
+  filter: sepia(0%);
+}
+
 .modal-img{
   width: 500px;
   padding: 20px;
