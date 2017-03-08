@@ -218,3 +218,27 @@ footer a{
    border-color: transparent;
   }
 }
+
+/*page devenir franchise - form */
+#success_message{ display: none;}
+
+#header_df{
+ background-image: url('../images/res1.jpg');
+}
+
+
+#nav-style-df{
+  background-color: rgba(225,225,225);
+   border-color: transparent;
+   height: 80px;
+}
+
+.intro-heading-df{
+  color: white;
+font-family: 'Cabin Sketch', cursive;
+  font-size: 6em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+ background-color: rgba(225,225,225,0.2);
+}
