@@ -1,13 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Didact+Gothic|Dosis|Stalemate');
 @import url('https://fonts.googleapis.com/css?family=Roboto:100');
 @import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
-
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
 
 #nav-style{
   background-color: transparent;
    background: transparent;
    border-color: transparent;
+   height: 80px;
 }
+
+
+.nav.navbar-nav.navbar-right li a {
+    color: #333;
+    font-size: 18px;
+    font-family: 'Julius Sans One', sans-serif;
+    padding-top: 30px;
+
+}
+
+#franchise{
+  background-color: #EEBB1A;
+}
+
 
 #logo{
   height: 50px;
@@ -19,15 +34,15 @@
   font-family: 'Stalemate', cursive;
   font-size: 2em;
   margin-left: 8px;
+  color: #333;
 }
 
 /*text heading*/
 
 header {
-  text-align: center;
   color: #333;
   /*text-shadow: 0 0 0.2em black, 0 0 0.2em black;*/
-  background-image: url('../images/header-hor.png');
+  background-image: url('../images/eggfix.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -39,19 +54,32 @@ header {
   
   font-family: 'Cabin Sketch', cursive;
   font-size: 6em;
-  padding-top: 1.8em;
-  padding-bottom: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
-@media all and (max-width: 1024px)
-{
-  .intro-heading{
-    padding-top: 70px;
-    font-size: 4em;
-  }
+#q-reserv{
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 2em;
+  text-align: right;
 }
 
+#q-reserv a{
+color: #333;
+text-decoration: none;
+}
 
+#q-reserv a:hover{
+color: #EEBB1A;
+}
+
+#wow{
+  font-size: 3em;
+}
+
+#wow-sm{
+  font-size: 1em;
+}
 
 #city{
  font-family: 'Didact Gothic', sans-serif;
@@ -82,11 +110,33 @@ p{
   text-align: justify;
   font-family: 'Dosis', sans-serif;
 }
+
+#descrpition{
+  font-size: 2em;
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column;
+}
+
 #container-photos{
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 30px;
 }
+
+#container-photos div div img{
+  width: 100%;
+  padding: 10px;
+ -webkit-filter: sepia(100%); /* Safari 6.0 - 9.0 */
+  filter: sepia(100%);
+}
+
+#container-photos div div img:hover{
+  -webkit-filter: sepia(0%); /* Safari 6.0 - 9.0 */
+  filter: sepia(0%);
+}
+
 .modal-img{
   width: 500px;
   padding: 20px;
@@ -140,7 +190,68 @@ footer a{
   color:white;
 }
 
-
 .row{
   padding-top: 20px;
+}
+
+
+@media all and (max-width: 1024px)
+{
+  .intro-heading{
+    padding-top: 120px;
+    font-size: 4em;
+  }
+
+  header{
+    text-align: center;
+  }
+
+  #q-reserv{
+    text-align: center;
+  }
+
+  footer{
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) { 
+.nav.navbar-nav.navbar-right li a {
+    color: black;
+    font-size: 14px;
+    font-family: 'Julius Sans One', sans-serif;
+
+}
+}
+
+@media (max-width: 768px) { 
+  #nav-style{
+  background-color: transparent;
+   background: white;
+   border-color: transparent;
+  }
+}
+
+/*page devenir franchise - form */
+#success_message{ display: none;}
+
+#header_df{
+ background-image: url('../images/res1.jpg');
+}
+
+
+#nav-style-df{
+  background-color: rgba(225,225,225);
+   border-color: transparent;
+   height: 80px;
+}
+
+.intro-heading-df{
+  color: white;
+font-family: 'Cabin Sketch', cursive;
+  font-size: 6em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+ background-color: rgba(225,225,225,0.2);
 }
