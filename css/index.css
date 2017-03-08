@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic|Dosis|Stalemate');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
+
+
+#nav-style{
+  background-color: transparent;
+   background: transparent;
+   border-color: transparent;
+}
+
+#logo{
+  height: 50px;
+}
+
+/*fix the text next to the log*/
+.block-fix{
+  display: inline-block;
+  font-family: 'Stalemate', cursive;
+  font-size: 2em;
+  margin-left: 8px;
+}
+
+/*text heading*/
+
+header {
+  text-align: center;
+  color: #333;
+  /*text-shadow: 0 0 0.2em black, 0 0 0.2em black;*/
+  background-image: url('../images/header-hor.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.intro-heading{
+  
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 6em;
+  padding-top: 1.8em;
+  padding-bottom: 2em;
+}
+
+@media all and (max-width: 1024px)
+{
+  .intro-heading{
+    padding-top: 70px;
+    font-size: 4em;
+  }
+}
+
+
+
+#city{
+ font-family: 'Didact Gothic', sans-serif;
+ text-align: center;
+font-size: 2em;
+
+}
+
+#accroche{
+  font-size: 2em;  
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+/*titulos de cada seccion*/
+.tit-sec{
+  font-family: 'Dosis', sans-serif;
+  text-align: center;
+  font-size: 4em;
+}
+
+#photos{
+  height: 100%;
+   display: inline-block;
+}
+
+p{
+  text-align: justify;
+  font-family: 'Dosis', sans-serif;
+}
+#container-photos{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+}
+.modal-img{
+  width: 500px;
+  padding: 20px;
+}
+
+h2{
+ padding: 20px;
+ font-family: 'Dosis', sans-serif;
+}
+
+#text-area{
+  width: 100%;
+}
+
+#form-reserve{
+  background-color: rgba(225,225,225,0.4);
+  border-radius: 5px 5px 5px 5px;
+}
+
+#geo-container{
+  text-align: center;
+}
+
+#geolocalisation{
+  text-align: center;
+}
+
+#reserve{
+
+    width: 100%;
+    height:100vh;
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url('https://images.pexels.com/photos/106877/pexels-photo-106877.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
+}
+
+
+#footer-id{
+  background-color: black;
+  padding: 30px;
+  color: white;
+}
+
+ul{
+  list-style-type: none;
+}
+
+footer a{
+  color:white;
+}
+
+
+.row{
+  padding-top: 20px;
+}
