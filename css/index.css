@@ -170,7 +170,6 @@ footer a{
   color:white;
 }
 
-
 .row{
   padding-top: 20px;
 }
@@ -188,6 +187,10 @@ footer a{
   }
 
   #q-reserv{
+    text-align: center;
+  }
+
+  footer{
     text-align: center;
   }
 }
