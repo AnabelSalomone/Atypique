@@ -208,6 +208,10 @@ footer a{
 }
 
 
+
+/*MEDIA QUERIES */
+
+
 @media all and (max-width: 1024px)
 {
   .intro-heading{
