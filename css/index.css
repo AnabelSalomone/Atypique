@@ -113,6 +113,10 @@ font-size: 2em;
   font-size: 4em;
 }
 
+#text-equipe{
+  padding-top: 1.4em;
+}
+
 #photos{
   height: 100%;
    display: inline-block;
@@ -187,15 +191,12 @@ h2{
 }
 
 #reserve{
-
     width: 100%;
-    height:100vh;
-    
+    height:100vh;    
     justify-content: center;
     align-items: center;
     background-size: cover;
-    background-image: url('https://images.pexels.com/photos/106877/pexels-photo-106877.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
-   
+    background-image: url('https://images.pexels.com/photos/106877/pexels-photo-106877.jpeg?w=940&h=650&auto=compress&cs=tinysrgb'); 
 }
 
 
@@ -268,7 +269,9 @@ footer a{
 }
 
 /*page devenir franchise - form */
-#success_message{ display: none;}
+#success_message{ 
+  display: none;
+  }
 
 #header_df{
  background-image: url('../images/res1.jpg');
