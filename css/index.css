@@ -228,6 +228,10 @@ h2{
     background-image: url('https://images.pexels.com/photos/106877/pexels-photo-106877.jpeg?w=940&h=650&auto=compress&cs=tinysrgb'); 
 }
 
+footer{
+   font-family: 'Julius Sans One', sans-serif;
+}
+
 
 #footer-id{
   background-color: black;
@@ -403,4 +407,11 @@ font-family: 'Cabin Sketch', cursive;
   visibility: visible;
   opacity: 1;
   transform: rotateY(0)
+}
+
+
+/*DEVENIR FRANCHISE*/
+
+legend, .form-group{
+   font-family: 'Julius Sans One', sans-serif;
 }
