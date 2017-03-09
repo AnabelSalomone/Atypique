@@ -55,6 +55,9 @@ header {
   background-attachment: fixed;
   height: 100vh;
 }
+ #cont-mouse{
+   cursor: pointer;
+ }
 
 .intro-heading{
   
