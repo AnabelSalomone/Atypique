@@ -7,7 +7,7 @@ $(document).ready(function () {
         var page = $(this).attr('href');
         var speed = 750; // 
         $('html, body').animate({
-            scrollTop: $(page).offset().top - 80
+            scrollTop: $(page).offset().top - 60
         }, speed);
     });
 

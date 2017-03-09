@@ -3,6 +3,11 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin+Sketch');
 @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
 
+body{
+  width:100%;
+}
+
+
 #nav-style{
   background-color: transparent;
    background: transparent;
@@ -74,6 +79,10 @@ color: #EEBB1A;
 }
 
 /*animate reservez in header*/
+
+#q-reserv{
+ -webkit-animation-delay: 1s;
+}
 #wow{
   font-size: 3em;
 }
@@ -81,6 +90,7 @@ color: #EEBB1A;
 #wow-sm{
   font-size: 2em;
   text-align: center;
+ 
 }
 
 #city{
@@ -204,7 +214,7 @@ footer a{
 }
 
 .row{
-  padding-top: 20px;
+  width: 100%;
 }
 
 
