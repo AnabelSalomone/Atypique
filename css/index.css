@@ -125,6 +125,11 @@ float:left;
   font-size: 4em;
 }
 
+#li-img-fix{
+  padding-left: 40px;
+}
+
+
 #text-equipe{
   padding-top: 1.4em;
 }
