@@ -54,7 +54,7 @@ $(document).ready(function () {
                     let nomVilles = ['Lyon', 'Bordeaux', 'Toulouse', 'La Loupe', ''];
 
                     if (nomVilles.includes(nomVille)) {
-                        $("#city").html('"Les Restaurants atypiques" de ' + nomVille + '<br> vous souhaitent la bienvenue ');
+                        $("#city").html('Nous sommes bien à ' + nomVille + '!');
                     }
                 });
             });
