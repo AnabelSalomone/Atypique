@@ -10,6 +10,12 @@
    height: 80px;
 }
 
+nav a:visited { 
+    color: transparent;
+}
+
+
+
 
 .nav.navbar-nav.navbar-right li a {
     color: #333;
@@ -99,6 +105,12 @@ font-size: 2em;
   font-size: 2em;  
   font-family: 'Roboto', sans-serif;
   color: black;
+}
+
+/*tamano del contacto dentro del modal */
+#size-contact{
+width: 100%;
+float:left;
 }
 
 /*titulos de cada seccion*/
