@@ -143,6 +143,14 @@ float:left;
    display: inline-block;
 }
 
+
+.text-hijo{
+  font-family: 'Stalemate', cursive;
+ color: #EEBB1A;
+ font-size: 350%;
+ text-align: center;
+}
+
 #container-photos a:hover{
   text-decoration-line: none;
 }
