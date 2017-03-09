@@ -160,6 +160,12 @@ h2{
 #form-reserve{
   background-color: rgba(225,225,225,0.4);
   border-radius: 5px 5px 5px 5px;
+  width: 50%;
+  text-align: center;
+ float: right;
+ display: inline-block;
+  margin-top: 10%;
+  margin-right: 25%;
 }
 
 #geo-container{
@@ -174,11 +180,12 @@ h2{
 
     width: 100%;
     height:100vh;
-    display:inline-block;
+    
     justify-content: center;
     align-items: center;
     background-size: cover;
     background-image: url('https://images.pexels.com/photos/106877/pexels-photo-106877.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
+   
 }
 
 
@@ -239,6 +246,10 @@ footer a{
   background-color: transparent;
    background: white;
    border-color: transparent;
+  }
+  #form-reserve{
+    width: 100%;
+    margin:5px;
   }
 }
 
