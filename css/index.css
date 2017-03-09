@@ -131,24 +131,22 @@ p{
   padding-top: 30px;
 }
 
-#container-photos div div img{
+.filter{
   width: 100%;
   padding: 10px;
  -webkit-filter: sepia(100%); /* Safari 6.0 - 9.0 */
   filter: sepia(100%);
 }
 
-#container-photos div div img:hover{
+.filter:hover{
   -webkit-filter: sepia(0%); /* Safari 6.0 - 9.0 */
   filter: sepia(0%);
 }
 
 .modal-img{
-  width: 100px;
-  padding: 20px;
-  -webkit-filter: none; /* Safari 6.0 - 9.0 */
-  filter: none;
+  width: 100%;
 }
+
 
 h2{
  padding: 20px;
