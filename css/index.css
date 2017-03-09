@@ -74,6 +74,10 @@ color: #EEBB1A;
 }
 
 /*animate reservez in header*/
+
+#q-reserv{
+ -webkit-animation-delay: 1s;
+}
 #wow{
   font-size: 3em;
 }
@@ -81,6 +85,7 @@ color: #EEBB1A;
 #wow-sm{
   font-size: 2em;
   text-align: center;
+ 
 }
 
 #city{
