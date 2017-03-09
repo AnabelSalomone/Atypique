@@ -239,6 +239,10 @@ footer a{
   width: 100%;
 }
 
+#icons{
+  font-size: 2em;
+}
+
 
 
 /*MEDIA QUERIES */
