@@ -47,11 +47,11 @@
         <ul class="nav navbar-nav navbar-right blacktext">
           <!--Hay que agregas la class active a cada seccion del navbar : class="active"-->
           <!--<li><a class="scroll" href="#main-header"> HOME <span class="sr-only">(current)</span></a></li>-->
-          <li><a class="scroll" href="#Presentacion">Équipe</a></li>
-          <li><a class="scroll" href="#photos">Restaurants</a></li>
-          <li><a class="scroll" href="#reserve">Reservez</a></li>
-          <li><a id="cont-mouse" class="scroll" data-toggle="modal" data-target="#myModal-c">Contact</a></li>
-          <li><a class="scroll" href="devenir-franchise.html" id="franchise">Devenir franchisé</a></li>
+          <li><a class="scroll whitefix" href="#Presentacion">Équipe</a></li>
+          <li><a class="scroll whitefix" href="#photos">Restaurants</a></li>
+          <li><a class="scroll whitefix" href="#reserve">Reservez</a></li>
+          <li><a id="cont-mouse" class="scroll whitefix" data-toggle="modal" data-target="#myModal-c">Contact</a></li>
+          <li><a class="scroll whitefix" href="devenir-franchise.html" id="franchise">Devenir franchisé</a></li>
         </ul>
       </div>
       <!-- /.navbar-collapse -->
@@ -65,7 +65,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Contact</h4>
+          <h4 class="modal-title" id="myModalLabel"></h4>
         </div>
         <div class="modal-body">
           <div class="container">
@@ -74,7 +74,7 @@
               <fieldset>
 
                 <!-- Form Name -->
-                <legend>Contactez-nous aujourd'hui</legend>
+                <legend class="tit-sec">Contactez-nous aujourd'hui</legend>
 
                 <!-- Text input-->
 
@@ -106,7 +106,7 @@
                   <div class="col-md-4 inputGroupContainer">
                     <div class="input-group">
                       <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                      <input name="email" placeholder="qwertrt@mail.com" class="form-control" type="text">
+                      <input name="email" placeholder="nom-prenom@mail.com" class="form-control" type="text">
                     </div>
                   </div>
                 </div>
@@ -154,8 +154,8 @@
           </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+          <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+
         </div>
       </div>
     </div>
@@ -485,7 +485,7 @@
   <div id="reserve">
     <div id="form-reserve" class="row">
       <div class="col-xs-12 col-md-6 col-md-offset-3">
-        <h1>Reservez votre table en ligne!</h1>
+        <h1 id="tit-table">Reservez votre table en ligne!</h1>
         <form class="form-inline">
           <div class="form-group">
             <!--Start Dropdown-->

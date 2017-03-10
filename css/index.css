@@ -224,6 +224,11 @@ h2{
     background-image: url('https://images.pexels.com/photos/106877/pexels-photo-106877.jpeg?w=940&h=650&auto=compress&cs=tinysrgb'); 
 }
 
+#tit-table{
+  font-size: 3em;
+  font-family: 'Dosis', sans-serif;
+}
+
 footer{
    font-family: 'Julius Sans One', sans-serif;
 }
@@ -279,6 +284,14 @@ footer a{
   text-align: center;
   float: none;
 }
+
+#nav-style{
+  background-color: white;
+   background: white;
+   border-color: transparent;
+   height: 80px;
+}
+
 }
 
 @media (min-width: 768px) and (max-width: 992px) { 
@@ -293,10 +306,14 @@ footer a{
 
 @media (max-width: 768px) { 
   #nav-style{
-  background-color: transparent;
+  background-color: white;
    background: white;
    border-color: transparent;
   }
+.whitefix{
+background-color: white;
+}
+
   #form-reserve{
     width: 100%;
     margin:5px;
@@ -337,3 +354,7 @@ font-family: 'Cabin Sketch', cursive;
    font-family: 'Julius Sans One', sans-serif;
 }
 
+/*Mension legal page*/
+#header_mention{
+  background-image: url("../images/header1.jpg");
+}
