@@ -55,6 +55,8 @@ $(document).ready(function () {
 
                     if (nomVilles.includes(nomVille)) {
                         $("#city").html('Nous sommes bien à ' + nomVille + '!');
+                        $("#lyon").css('filter', 'sepia(0%)');
+                        $("#lyon").addClass('animated shake');
                     }
                 });
             });
